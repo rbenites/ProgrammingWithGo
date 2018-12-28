@@ -1,7 +1,7 @@
 # My First GO programms
 
 
-##Install Go with VS code
+## Install Go with VS code
 
 1. Download and install go from golang.org/dl/
    1. golang.org/pkg = go language package information
