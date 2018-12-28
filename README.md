@@ -22,17 +22,31 @@
 7. Packages are GO functions that are builtinto the framework and can be used in your code through imports <https://golang.org/pkg/>
 8. Struct is like an object (JS) or dict (python).
 9. Map is like an object (JS) or dict (python)
-   1.  Keys must be of the same type
-   2.  Values must be of the same type
+   1. Keys must be of the same type
+   2. Values must be of the same type
+10. Struct Vs Map
+    1. Map
+        1. All keys must be the same type
+        2. Used to represent a collection of related properties
+        3. All values must be of the same type
+        4. Don't need to know all the keys at the compile time
+        5. Keys are indexed and can be iterated over
+        6. Reference type!
+    2. Struct
+       1. Values can be of different type
+       2. Need to know all the different fields at compile time
+       3. Keys dont support indexing
+       4. Use to represent a "thing" with a lot of different porperties
+       5. Value type!
 
 ## Go CLI
 
 1. go build = compile a bunch of go source
-1. go run = compile and execute one or two files
-1. go fmt = format all the code in each file in the current directory
-1. go install = compiles and "installs" a package
-1. go get = downloads the raw source code of someone else's package
-1. go test = run any tests associated with the current project
+2. go run = compile and execute one or two files
+3. go fmt = format all the code in each file in the current directory
+4. go install = compiles and "installs" a package
+5. go get = downloads the raw source code of someone else's package
+6. go test = run any tests associated with the current project
 
 ## How to run GO
 
