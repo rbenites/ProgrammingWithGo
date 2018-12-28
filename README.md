@@ -21,6 +21,9 @@
 6. Go Playground allows you to test code <https://play.golang.org/>.
 7. Packages are GO functions that are builtinto the framework and can be used in your code through imports <https://golang.org/pkg/>
 8. Struct is like an object (JS) or dict (python).
+9. Map is like an object (JS) or dict (python)
+   1.  Keys must be of the same type
+   2.  Values must be of the same type
 
 ## Go CLI
 
