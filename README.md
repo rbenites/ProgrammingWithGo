@@ -1,4 +1,7 @@
-# Install Go with VS code
+# My First GO programms
+
+
+##Install Go with VS code
 
 1. Download and install go from golang.org/dl/
    1. golang.org/pkg = go language package information
@@ -16,6 +19,9 @@
    1. Defines a package that ca be compiled and the executed
 4. Other names are considered "helper" code
 5. import allows access to other files
+6. Go Playground allows you to test code (https://play.golang.org/).
+7. Packages are GO functions that are builtinto the framework  and can be used in your code through imports (https://golang.org/pkg/)
+
 
 ## Go CLI
 
@@ -31,3 +37,4 @@
 1. Open terminal
 2. navigate to project directory
 3. type "go run (file name).go"
+4. to run multiple files repeat step 3 and add the other files (ex: go run main.go deck.go)
