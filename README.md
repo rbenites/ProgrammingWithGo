@@ -13,14 +13,15 @@
 
 1. Typing "go" in terminal will display a list of the available GO commands
 2. There are two types of Packages
-   1. Executable = generate a file that we can run
-   2. Reusable = code used as "helpers". Good place to put reusable logic
+   a. Executable = generate a file that we can run
+   b. Reusable = code used as "helpers". Good place to put reusable logic
 3. package main is used to build an executable file
-   1. Defines a package that ca be compiled and the executed
+   a. Defines a package that ca be compiled and then executed
 4. Other names are considered "helper" code
 5. import allows access to other files
 6. Go Playground allows you to test code <https://play.golang.org/>.
 7. Packages are GO functions that are builtinto the framework  and can be used in your code through imports <https://golang.org/pkg/>
+8. Struct is like an object (JS) or dict (python).
 
 
 ## Go CLI
@@ -38,3 +39,7 @@
 2. navigate to project directory
 3. type "go run (file name).go"
 4. to run multiple files repeat step 3 and add the other files (ex: go run main.go deck.go)
+
+## Things to know
+
+1. fmt.Printf("%+v",(value)) = print the function with the value and field names
