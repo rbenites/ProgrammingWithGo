@@ -23,12 +23,14 @@ func main() {
 		},
 	}
 	//give jimPointer the memory address of the jim variable
-	jimPointer := &jim
-	jimPointer.updateName("Jimmy")
+	//jimPointer := &jim
+
+	//shortcut to access the address
+	jim.updateName("Jimmy")
 	jim.print()
 }
 
-//pointer to person receives the memory address from jimPointer. *person points to person.
+//pointer to person receives the memory address from jimPointer. *person points to person type.
 func (pointerToPerson *person) updateName(newFirstName string) {
 	//*pointerToPerson changes the address to the value in peron.firstname and changes it to the name passed from the update function call
 	(*pointerToPerson).firstName = newFirstName

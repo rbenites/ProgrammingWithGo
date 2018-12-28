@@ -41,7 +41,19 @@
 ## Things to know
 
 1. fmt.Printf("%+v",(value)) = print the function with the value and field names
-2. &variable = give me to the memory address of the value this var is pointing at
-   1. Turn value into address with &value
+2. &variable = give me the memory address of the value this var is pointing at
+   1. Turn value into address/pointer with &value
 3. *pointer Give me the value this memory address is pointing at
-   1. turn address into value with *address
+   1. turn address/pointer into value with *address
+4. Reference types (dont need pointers to chage value):
+   1. slices
+   2. maps
+   3. channels
+   4. pointers
+   5. functions
+5. Value types (need pointers to change value):
+   1. int
+   2. float
+   3. string
+   4. bool
+   5. sructs
