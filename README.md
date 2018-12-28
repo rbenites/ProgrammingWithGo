@@ -19,8 +19,8 @@
    1. Defines a package that ca be compiled and the executed
 4. Other names are considered "helper" code
 5. import allows access to other files
-6. Go Playground allows you to test code (https://play.golang.org/).
-7. Packages are GO functions that are builtinto the framework  and can be used in your code through imports (https://golang.org/pkg/)
+6. Go Playground allows you to test code <https://play.golang.org/>.
+7. Packages are GO functions that are builtinto the framework  and can be used in your code through imports <https://golang.org/pkg/>
 
 
 ## Go CLI
