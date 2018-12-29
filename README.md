@@ -74,3 +74,4 @@
    3. string
    4. bool
    5. sructs
+6. Interfaces are implicit, not generic types, and can link pieces of code together.
