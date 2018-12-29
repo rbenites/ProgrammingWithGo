@@ -26,12 +26,12 @@
    2. Values must be of the same type
 10. Struct Vs Map
     1. Map
-        1. All keys must be the same type
-        2. Used to represent a collection of related properties
-        3. All values must be of the same type
-        4. Don't need to know all the keys at the compile time
-        5. Keys are indexed and can be iterated over
-        6. Reference type!
+       1. All keys must be the same type
+       2. Used to represent a collection of related properties
+       3. All values must be of the same type
+       4. Don't need to know all the keys at the compile time
+       5. Keys are indexed and can be iterated over
+       6. Reference type!
     2. Struct
        1. Values can be of different type
        2. Need to know all the different fields at compile time
