@@ -38,6 +38,9 @@
        3. Keys dont support indexing
        4. Use to represent a "thing" with a lot of different porperties
        5. Value type!
+11. Reader interface
+    1. Allows us to to create code that can interface with various functions
+12. 
 
 ## Go CLI
 
@@ -75,3 +78,5 @@
    4. bool
    5. sructs
 6. Interfaces are implicit, not generic types, and can link pieces of code together.
+7. Every value has a type
+8. Every function has to specify the type of its arguments
