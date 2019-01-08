@@ -40,7 +40,8 @@
        5. Value type!
 11. Reader interface
     1. Allows us to to create code that can interface with various functions
-12. 
+12. Channels
+    1. Allows us to send and receive valuse with the channel operator, <-.
 
 ## Go CLI
 
