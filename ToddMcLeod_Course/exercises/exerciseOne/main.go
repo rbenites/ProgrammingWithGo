@@ -1,5 +1,12 @@
 package main
 
+/*
+- create three VARIABLES (x,y,z)
+- assign one of the following values to each: 42, "James Bond", "True"
+- print all three variables using one print function
+- print each variable on a seperate line
+*/
+
 import "fmt"
 
 func main() {
