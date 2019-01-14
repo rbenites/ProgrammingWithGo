@@ -1,11 +1,21 @@
 package main
 
+//bool = comparison as true/false
+
 import "fmt"
 
 var x bool
 
 func main() {
-	fmt.Println(x)
+
+	a := 7
+	b := 42
+	fmt.Println(a == b) //false
+	fmt.Println(a < b)  //true
+	fmt.Println(a > b)  //false
+	fmt.Println(a != b) //false
+
+	fmt.Println(x) //false
 	x = true
-	fmt.Println(x)
+	fmt.Println(x) //true
 }
