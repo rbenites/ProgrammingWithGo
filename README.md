@@ -81,3 +81,38 @@
 6. Interfaces are implicit, not generic types, and can link pieces of code together.
 7. Every value has a type
 8. Every function has to specify the type of its arguments
+
+## Other Go info
+
+1. A STATEMENT is the smallest standalone element of a program that expresses some action to be carried out.
+   1. It is an instruction that commands the computer to perform a specified asction.
+   2. They usually take up one line.
+2. An EXPRESSION is a combination of one or more explicit values, constants, variables, operators, and functions that the programming language interprets and computes to produce another value.
+3. The "scope" of a variable is where you can access the variable, eg, write to it or read the value from it.
+4. A "primitive" data TYPE is one that is built into the language AND/OR just a basic data type which is built into the language
+   1. Int, String
+5. A "composite" data TYPE allows you to compose together values of other data TYPES
+6. When a variable is declared in Go using the "var" keyword, and no VALUE is ASSIGNED to that variable, then the compiler assigns a default value to the variable. This is known as the "zero value"
+7. Keywords are words that a reserved for use by the Go programming language; they have to be used in a certain way for a certain purpose.
+   1. Keywords are sometimes called “reserved words.”
+   2. You can’t use a keyword for anything other than its purpose.
+   3. Keywords = package, var
+8. In “2 + 2” the “+” is the OPERATOR 
+9. In “2 + 2” the “2”s are OPERANDS
+10. The entry point for all programs is in func main() which needs to be inside package main
+11. The short declaration operator can only be used at the block level - between curly braces. The language spec says, "Short variable declarations may appear only inside functions.
+12. Good Package names should be Short, Concise, and Evocative
+13. https://play.golang.org/ can be used to write (most) Go code and have it run
+14. A great place to ask questions is the "golang bridge forum" at https://forum.golangbridge.org/ 
+15. When you see something like "fmt.Println()" this is calling the "Println()" function from the "fmt" package.
+16. An "identifier" is the name assigned to a variable or a function or a constant.
+17. To call a func, variable, or constant from a package, use the "package-dot-identifier" syntax. For example, like this, "fmt.Println()" 
+18. Idiomatic code is Go code which conforms to best practices for writing Go code.
+19. _ is a characterused to "throw away" code
+20. In Go, you cannot have a variable which you do not use.
+21. When you see that a func has a parameter of this type "...interface{}" this is called a "variadic parameter" and it means that the func can take as many values of that type as you want to pass in.
+22. Every value in Go is also of type "empty interface" which is expressed like this: "interface{}
+23. If you wanted to print to a string and then assign that value to a variable, you could use the "func Sprintf()" from the "fmt" package.
+24. In Go, you can create your own TYPE
+    1. When you create our own TYPE in Go, that TYPE will have an "underlying TYPE".
+25. We don't say "casting" in Go, we say "conversion"
