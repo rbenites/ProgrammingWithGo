@@ -116,3 +116,26 @@
 24. In Go, you can create your own TYPE
     1. When you create our own TYPE in Go, that TYPE will have an "underlying TYPE".
 25. We don't say "casting" in Go, we say "conversion"
+26. Go emphasizes ease of programming. If you use the short declaration operator, you do not need to specify the type.
+27. how computers work
+    1.  Computers run on electricity. Electricity has two discrete states: on & off. We can associate a coding scheme with the state of a circuit. For example, the porch light on Halloween in America: when it is "on" it means "come trick or treat", and when it is "off" it means "go away." If we had two porch lights, we could encode four messages:
+   on on = some message
+   on off = some message
+   off on = some message
+   off off = some message
+
+   If we had 3 porch lights, we could encode 8 messages. The formula for figuring out how many messages can be encoded is 2 to the power of N where "N" is the number of porch lights. For instance, 2 to the power of 3, is 8.
+
+   Instead of writing "on off on on off", etcetera, we can have "1" represent "on" and "0" represent "off" and thus more easily write "1 0 1 1 0"
+28. A boolean value is one that is either true or false
+29. if you have 5 porch lights, how many messages can you encode? 32 or 2 to the 5th power
+30. "Bit" is an abbreviation of "binary digit"
+    1.  1000 bytes = 1kb
+    2.  1000GB = 1TB
+31. rune is an alias for int32
+    1.  A string is a sequence of bytes that represent Unicode code points, called runes.
+32. byte is an alias for uint8
+33. If you use type int, then the compiler will choose whether int32 or int64 is used. Another way to say this is that int has implementation-specific sizes
+34. As a rule of thumb, for numeric types, you should just use "int" for whole numbers (without decimals) and "float64" for real numbers (with decimals)
+35. A string is a sequence of bytes, which is also known as a "slice of bytes"
+36. Go source code is always UTF-8.
