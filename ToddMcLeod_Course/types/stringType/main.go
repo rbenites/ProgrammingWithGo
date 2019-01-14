@@ -1,4 +1,5 @@
 package main
+//byte = alias for int8
 
 import "fmt"
 
@@ -14,5 +15,10 @@ func main() {
 	u := `"Hello, playground"`
 	fmt.Println(u)
 	fmt.Printf("%T\n", u)
+
+	//slice of byte. convert s to int
+	bs:=[]byte(s)
+	fmt.Println(bs)
+	fmt.Printf("%T\n", bs)
 
 }
