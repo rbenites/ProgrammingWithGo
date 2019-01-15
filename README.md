@@ -81,6 +81,10 @@
 6. Interfaces are implicit, not generic types, and can link pieces of code together.
 7. Every value has a type
 8. Every function has to specify the type of its arguments
+9. Control Flow
+   1. Iterative/Loop
+   2. Conditional
+   3. Sequence
 
 ## Other Go info
 
