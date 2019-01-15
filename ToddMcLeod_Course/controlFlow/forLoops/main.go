@@ -8,4 +8,12 @@ func main() {
 		fmt.Println(i)
 	}
 
+	//for statement with single clause
+	x := 1
+	for x < 10 {
+		fmt.Println(x)
+		x++
+	}
+	fmt.Println("done.")
+
 }
