@@ -2,11 +2,6 @@ package main
 
 import "fmt"
 
-/*
-map is a key value pair
-
-*/
-
 func main() {
 	//map[type]type{ key:value,}
 	m := map[string]int{
@@ -28,4 +23,11 @@ func main() {
 	if v, ok := m["James"]; ok {
 		fmt.Println("This is the IF Print", v)
 	}
+
+	//range over the array
+	m["todd"] = 33
+	for k, v := range m {
+		fmt.Println(k, v)
+	}
+
 }
