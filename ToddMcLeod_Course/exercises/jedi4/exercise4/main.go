@@ -23,7 +23,7 @@ func main() {
 	fmt.Println(x)
 	x = append(x, 53, 54, 55)
 	fmt.Println(x)
-	x = append([]int{56, 57, 58, 59, 60})
+	y := []int{56, 57, 58, 59, 60}
+	x = append(x, y...)
 	fmt.Println(x)
-
 }
