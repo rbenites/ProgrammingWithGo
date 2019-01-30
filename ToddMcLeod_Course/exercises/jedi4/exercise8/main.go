@@ -32,7 +32,7 @@ func main() {
 	for k, v := range m {
 		//print the key
 		fmt.Println(k)
-		//for each i (index), v2 is the range of v
+		//for each i (index), v2 is the range of v (the slice of string)
 		for i, v2 := range v {
 			i++
 			//print a tab then the index then the value2
