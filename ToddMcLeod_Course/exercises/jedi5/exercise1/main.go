@@ -33,13 +33,17 @@ func main() {
 			"chocolate", "double'o'fudge",
 			"caramel"},
 	}
+	//print p1 first and last name
 	fmt.Println(p1.first, p1.last)
+	//loop over what is in p1.favicecream
 	for i, v := range p1.favIceCream {
-		fmt.Println(i, v)
+		//prints the index of the value
+		fmt.Println(i)
+		//prints the value
+		fmt.Println(v)
 	}
 	fmt.Println(p2.first, p2.last)
 	for i, v := range p2.favIceCream {
 		fmt.Println(i, v)
 	}
-
 }

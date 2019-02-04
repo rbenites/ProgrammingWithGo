@@ -34,11 +34,14 @@ func main() {
 
 	//[key]value
 	m := map[string]person{
+		//sets key as last
 		p1.last: p1,
 		p2.last: p2,
 	}
+	
 	for k, v := range m {
-		fmt.Println(k)
+		//key = bond and Moneypenny
+		fmt.Println(k,v)
 		for i, v2 := range v.favIceCream {
 			fmt.Println(i, v2)
 		}
